@@ -8,7 +8,7 @@ public class Exceptions{
                 j=j/i;
             }
             catch(Exception e){ // here we are accepting exception as an object
-                System.out.println("something went wrong");
+                System.out.println("something went wrong" + e);
             }
                 //if we haven't handle the exception then due to error code could be stopped but here we have handled so 
                 //next line of codes will be excuted easily.
